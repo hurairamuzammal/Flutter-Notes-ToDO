@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "354645201705",
+    "project_id": "notes-to-do-ccde6",
+    "storage_bucket": "notes-to-do-ccde6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354645201705:android:ba9f16c56de68c90a7dd38",
+        "android_client_info": {
+          "package_name": "com.example.login_signup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtmBAjWZIwGv7ChGsS7yFT16IT5a9tmxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
