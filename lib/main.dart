@@ -5,7 +5,7 @@ import 'package:flutter_todo/screens/login.dart';
 var kcolorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 201, 201, 201),
 ).copyWith(
-    secondary: const Color.fromARGB(255, 30, 30, 31),
+    secondary: const Color.fromARGB(255, 30, 30, 30),
     primary: const Color.fromARGB(255, 255, 255, 255));
 
 var kDarkColorScheme = ColorScheme.fromSeed(
@@ -13,7 +13,7 @@ var kDarkColorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 41, 40, 40),
 ).copyWith(
   secondary: const Color.fromARGB(255, 255, 255, 255),
-  primary: const Color.fromARGB(255, 31, 30, 30),
+  primary: const Color.fromARGB(255, 30, 30, 30),
 );
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         primaryColor: kcolorScheme.primary,
       ),
       themeMode: ThemeMode.system,
-      home:const LoginScreen(),
+      home: const LoginScreen(),
     );
   }
 }
